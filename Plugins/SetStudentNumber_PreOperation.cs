@@ -73,6 +73,8 @@ namespace ApplicationTestOne.Plugins
 
                     studentRecord["cr652_name"] = autoNumber;
 
+                    trace.Trace("student auto number set successfully!");
+
                 }
 
             }catch(Exception ex)

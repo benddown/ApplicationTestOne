@@ -73,6 +73,8 @@ namespace ApplicationTestOne.Plugins
                         {
                             throw new Exception("Duplicate record found: " + autoNumber);
                         }
+
+                        trace.Trace("Student auto number validated successfully!");
                     }
                 }
 

@@ -90,10 +90,12 @@ namespace ApplicationTestOne.Plugins
             if (isPCycle)
             {
                 qeCourses.Criteria.AddCondition("cr652_cycle", ConditionOperator.In, (int)Constants.Constants.Cycle.P, (int)Constants.Constants.Cycle.both);
+                trace.Trace("P cycle student courses created successfully");
             }
             else
             {
                 qeCourses.Criteria.AddCondition("cr652_cycle", ConditionOperator.In, (int)Constants.Constants.Cycle.C, (int)Constants.Constants.Cycle.both);
+                trace.Trace("Q cycle student courses created successfully");
             }
 
             // retrive valid records
