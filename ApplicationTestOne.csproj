@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants\Constants.cs" />
+    <Compile Include="Plugins\DeleteStudent_PreValidation.cs" />
     <Compile Include="Plugins\SetStudentNumber_PreOperation.cs" />
     <Compile Include="Plugins\SetStudentNumber_preValidation.cs" />
     <Compile Include="Plugins\StudentSubject_PostCreate.cs" />
