@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 
+//pre validate plugin
+
 namespace ApplicationTestOne.Plugins
 {
     public class SetStudentNumber_preValidation : IPlugin
