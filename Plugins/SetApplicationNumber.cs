@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Microsoft.Xrm.Sdk;
 // Used to query a record from the database
 using Microsoft.Xrm.Sdk.Query;
+
+// testing tek computer
     
 namespace ApplicationTestOne.Plugins
 {
@@ -94,7 +96,7 @@ namespace ApplicationTestOne.Plugins
                             service.Update(etAutoNumberConfig);
 
                             //construct application number
-                            atApplicationNumber.Append(prefix + separator + year + month + day + separator + suffix + separator + currentNumber);
+                            atApplicationNumber.Append(separator + prefix + separator + year + month + day + separator + suffix + separator + currentNumber);
                             break;
                         }
                     }
